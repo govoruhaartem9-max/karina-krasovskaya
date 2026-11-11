@@ -9,11 +9,11 @@
     </linearGradient>
   </defs>
   <g fill="url(#gold)" text-anchor="middle" font-family="Bodoni MT, Didot, 'Times New Roman', serif" font-weight="400">
-    <text x="385" y="300" font-size="270">K</text>
-    <text x="615" y="405" font-size="270">K</text>
+    <text x="345" y="300" font-size="270">K</text>
+    <text x="655" y="405" font-size="270">K</text>
     <text x="500" y="535" font-size="58" letter-spacing="13">KRASOVSKAYA</text>
   </g>
-  <path d="M558 105 425 432" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M580 78 C548 143 501 250 430 430 C442 365 479 279 507 221 C538 157 563 102 580 78Z" fill="url(#gold)"/>
   <g fill="url(#gold)" font-family="Arial, sans-serif" font-size="31" font-weight="300" letter-spacing="15">
     <text x="414" y="610" text-anchor="end">PMU</text>
     <text x="586" y="610">BROWS</text>
