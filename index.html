@@ -60,7 +60,7 @@ document.querySelector('.about-tour-button')?.addEventListener('click', async (e
   try {
     const response = await fetch('room-tour.mp4.base64');
     if (!response.ok) throw new Error('Video unavailable');
-    const base64 = (await response.text()).replace(/\\s/g, '');
+    const base64 = (await response.text()).replace(/\s/g, '');
     const binary = atob(base64);
     const bytes = new Uint8Array(binary.length);
     for (let i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
